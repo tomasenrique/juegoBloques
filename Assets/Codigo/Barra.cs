@@ -44,7 +44,7 @@ public class Barra : MonoBehaviour
          * Con el metodo Mathf se pondra un limite de movimiento para la barra, esto sera para que se no se salga de las paredes.
          * Tambien se puede hacer usando la condifional if.       
          * Ademas se le agrega un Rigibody para que el collider de la barra no sea statico, ademas hay que quitandole el gravity y agregando kinematic */
-        transform.position = new Vector3(Mathf.Clamp(posX, -7.7f, 7.7f), transform.position.y, transform.position.z);
+        transform.position = new Vector3(Mathf.Clamp(posX, -8.7f, 8.7f), transform.position.y, transform.position.z);
 
         //
 
